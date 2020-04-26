@@ -1,0 +1,341 @@
+/* start body edits*/
+
+	body{
+		background-color: #f4f4f4 !important;
+
+	}
+	
+
+/* end body edits*/
+
+/* start login form login page*/
+/*  register phrase on the login page*/
+#registerphrase{
+	position: relative;
+	bottom: 20px;
+	left: 5px;
+}
+
+.login{
+	width: 300px;
+	margin: 100px auto ;
+}
+.login input{
+	margin-bottom: 10px;
+}
+.login .form-control{
+	background-color: #E5E5E5;
+}
+.login .btn{
+	background-color: #008dde;
+}
+
+
+/* end login form*/
+
+/*start bootstrap home page edit*/
+
+    
+
+/* backround image homepage*/
+.bgg
+{
+	width: 100%;
+    height: 100vh;
+    background-image: url("../images/backround.jpg");
+    background-size: cover;
+}
+    /*overlay properties home page*/
+.bgg .overlay
+{
+	width:100%;
+	height:100%;
+	background-color: rgba(0,0,0,0.2);
+	z-index:2;
+	display:flex;
+    justify-content: center;
+    align-items: center;
+}
+/* home page buttons*/
+.bgg .overlay .btn
+{
+	margin:90px;
+}
+
+/*selling page */
+/*second form edits(the no image one)*/
+.sellform{
+	width: 300px;
+	margin-top:140px;
+	margin-left: 100px;
+
+}
+/*image upload edits*/
+.image-upload>input {
+  display: none;
+
+}
+.image-upload{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+/*the lets see your instrument phrase in the sell gear page*/
+ h1 {
+   
+   display: flex;
+justify-content: center;
+
+
+}
+/*text area edits in the sell gear page*/
+
+#story {
+    font-size: .8rem;
+    letter-spacing: 1px;
+}
+#story {
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+#story{
+    display: block;
+    margin-bottom: 10px;
+}
+/* the tell us about your instument phrase in the sell gear page  */
+.textthing{
+position: relative;
+left:800px;
+bottom: 330px;
+
+}
+/* the save and list button on the sell gear page*/
+.sellpageform {
+width: 200px;
+	margin: 100px auto ;
+	position: relative;
+	bottom: 280px;
+}
+
+/*  footer style  */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 40px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #007b5e !important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer h1{
+	padding-left: 10px;
+    border-left: 10px 
+    padding-bottom: 6px;
+    margin-top: 60px;
+    color:#ffffff;
+    position: relative;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+  }
+}
+/*buy gear page css*/
+/*buy gear images*/
+/* first div */
+.images{
+
+position: relative;
+top: 220px;
+height:350px;
+}
+/* second div */
+.images1{
+
+position: relative;
+top: 150px;
+height:350px;
+}
+
+/* the shop by category phrase in the buygear page*/
+#shopbycategory{
+	
+	position: relative;
+	top: 110px;
+
+}
+/* footer of the buy gear page*/
+.footerbuygearpage{
+	position: relative;
+	top: 350px;
+}
+/* footer of homepage*/
+.footerhomepage{
+	position: relative;
+	top: 200px;
+}
+
+
+/* the position of the whole div except the navbar nad footer on the category page*/
+.all-pg{
+	
+	position: relative;
+	top: 150px;
+	left: 100px;
+
+	
+
+}
+
+/* the electric guitar phrase on the category page */
+.electricguitars{
+	left: 300px;
+	position: relative;
+	bottom: 50px;
+    }
+
+     /*  side bar filter panel on the category page*/ 
+        
+.card{
+position: relative;
+bottom: 600px;
+right: 190px;
+
+}
+/* the whole div on the product page */
+
+.pr_details
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:70%;
+    position: relative;
+    top: 100px;
+
+
+}
+/* the product name phrase font on the product page */
+.pr_usedgear_name
+{
+    font-family:cav;
+    
+}
+/* the seller's number phrases */
+.pr_usedgear_qt
+{
+    color:rgb(126, 126, 126);
+    font-weight: 600;
+}
+/*  the price tag itself*/
+.pr_usedgear_qt_span 
+{
+    border:1px solid goldenrod;
+    padding:5px 15px;
+    border-radius: 4px;
+    position: relative;
+    top: 15px;
+}
+/* the seller' n umber tag itself */
+.pr_usedgear1_qt_span 
+{
+    border:1px solid goldenrod;
+    padding:5px 15px;
+    border-radius: 4px;
+}
+/* the price phrase*/
+.pr_usedgear_qt1
+{
+    color:rgb(126, 126, 126);
+    font-weight: 600;
+    position: relative;
+    top: 15px;
+}
+/*the hr on the product page*/
+.productpagehr{
+	position: relative;
+	top: 80px;
+}
+/* the footer on the product page */
+.footerproductpage{
+	position: relative;
+	top: 500px;
+}
+
+#carousel1{
+	 
+    position: relative;
+    top:100px;
+    left: 130px;
+	height:70%;
+	width: 80%;
+}
+#shopphrasehomepage{
+	position: relative;
+	top: 60px;
+}
